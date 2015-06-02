@@ -17,5 +17,6 @@ function submitAnswers(){
 	var results = document.getElementById('results');
 	results.innerHTML = '<h3>You Scored <span>' + score + '</span> out of <span>' + total + '</span></h3>';
 	//alert('You Scored ' + score + 'out of ' + total );
+	parent.scrollTo(0, 0);
 	return false;
 }
