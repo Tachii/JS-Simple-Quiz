@@ -6,9 +6,8 @@ function submitAnswers(){
 	    if(document.forms["quizForm"]["q" + i].value == ""){
 	        alert("You missed question " + i);
 	        return false;
-	    } 
-	    score += document.forms["quizForm"]["q" + i].value;
-	 }
-	
-	
+	    } else {
+	    	eval('var q' + i + '= document.forms["quizForm"]["q" + i].value;');
+		}
+	}
 }
