@@ -1,0 +1,7 @@
+/**
+ * @author tachii
+ * 
+ */
+
+alert('test');
+
